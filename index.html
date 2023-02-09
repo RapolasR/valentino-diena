@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <title>Valentino diena</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1 id="hashVien">Valentino diena</h1>
+    <p id="pastr">Sako meilė ateina pavasarį! <br>
+       Sako žydi kartu su gėlėm... <br>
+       Aš tikiu, kad ateina ir žiemą, <br>
+       Apsnigtom, apsnigtom pakėlėm.</p>
+       
+       <button onclick="fonas();">Labas + paspausk</button>
+       
+       
+    <script>
+          function fonas(){
+        document.body.style.backgroundImage = 'url(heart.png)';
+        document.getElementById('hashVien').style.fontFamily = 'Sassy Frass';
+        document.getElementById('hashVien').style.fontSize = '60px';
+        document.getElementById('hashVien').style.color = 'red';
+        document.getElementById('pastr').style.fontFamily = 'Quicksand';
+        document.getElementById('pastr').style.fontSize = '30px';
+              
+              }
+    </script>
+</body>
+</html>
